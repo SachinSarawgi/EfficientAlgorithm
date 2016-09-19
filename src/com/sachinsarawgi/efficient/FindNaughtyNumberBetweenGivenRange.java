@@ -29,6 +29,7 @@ public class FindNaughtyNumberBetweenGivenRange {
 		System.out.println("Naughty number between the range "+intArr[0]+" to "+intArr[1]+" is "+numSucc);
 	}
 
+	//This function returns distinct number of prime factors of a given number
 	public static int findPrimeFactor(int n) {
 
 		Set<Integer> primeFactors = new HashSet<>();
